@@ -1,0 +1,40 @@
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building 20140815-maven-surefire-plugin 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ 20140815-maven-surefire-plugin ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory F:\goat-pc-data\ecworkspace\20140815-maven-surefire-plugin-experimental\src\main\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.5.1:compile (default-compile) @ 20140815-maven-surefire-plugin ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ 20140815-maven-surefire-plugin ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory F:\goat-pc-data\ecworkspace\20140815-maven-surefire-plugin-experimental\src\test\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.5.1:testCompile (default-testCompile) @ 20140815-maven-surefire-plugin ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ 20140815-maven-surefire-plugin ---
+[INFO] Surefire report directory: F:\goat-pc-data\ecworkspace\20140815-maven-surefire-plugin-experimental\target\surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.example.AppTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec
+
+Results :
+
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 1.404s
+[INFO] Finished at: Fri Aug 15 01:12:25 JST 2014
+[INFO] Final Memory: 8M/309M
+[INFO] ------------------------------------------------------------------------

@@ -1,0 +1,482 @@
+Apache Maven 3.1.1 (0728685237757ffbf44136acec0402957f723d9a; 2013-09-18 00:22:22+0900)
+Maven home: C:\tool\Maven\apache-maven-3.1.1
+Java version: 1.7.0_17, vendor: Oracle Corporation
+Java home: C:\tool\Java\jdk1.7.0_17\jre
+Default locale: ja_JP, platform encoding: MS932
+OS name: "windows 7", version: "6.1", arch: "amd64", family: "windows"
+[INFO] Error stacktraces are turned on.
+[DEBUG] Reading global settings from C:\tool\Maven\apache-maven-3.1.1\conf\settings.xml
+[DEBUG] Reading user settings from C:\Users\simei\.m2\settings.xml
+[DEBUG] Using local repository at C:\Users\simei\.m2\repository
+[DEBUG] Using manager EnhancedLocalRepositoryManager with priority 10.0 for C:\Users\simei\.m2\repository
+[INFO] Scanning for projects...
+[DEBUG] Extension realms for project com.example:20140815-maven-surefire-plugin:jar:1.0-SNAPSHOT: (none)
+[DEBUG] Looking up lifecyle mappings for packaging jar from ClassRealm[plexus.core, parent: null]
+[DEBUG] Resolving plugin prefix help from [org.apache.maven.plugins, org.codehaus.mojo]
+[DEBUG] Could not find metadata org.apache.maven.plugins/maven-metadata.xml in local (C:\Users\simei\.m2\repository)
+[DEBUG] Skipped remote update check for org.apache.maven.plugins/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Could not find metadata org.codehaus.mojo/maven-metadata.xml in local (C:\Users\simei\.m2\repository)
+[DEBUG] Skipped remote update check for org.codehaus.mojo/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Resolved plugin prefix help to org.apache.maven.plugins:maven-help-plugin from repository central
+[DEBUG] Resolving plugin version for org.apache.maven.plugins:maven-help-plugin
+[DEBUG] Could not find metadata org.apache.maven.plugins:maven-help-plugin/maven-metadata.xml in local (C:\Users\simei\.m2\repository)
+[DEBUG] Skipped remote update check for org.apache.maven.plugins:maven-help-plugin/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Resolved plugin version for org.apache.maven.plugins:maven-help-plugin to 2.2 from repository central (http://repo.maven.apache.org/maven2, releases)
+[DEBUG] === REACTOR BUILD PLAN ================================================
+[DEBUG] Project: com.example:20140815-maven-surefire-plugin:jar:1.0-SNAPSHOT
+[DEBUG] Tasks:   [help:effective-pom]
+[DEBUG] Style:   Aggregating
+[DEBUG] =======================================================================
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building 20140815-maven-surefire-plugin 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[DEBUG] Resolving plugin prefix help from [org.apache.maven.plugins, org.codehaus.mojo]
+[DEBUG] Could not find metadata org.apache.maven.plugins/maven-metadata.xml in local (C:\Users\simei\.m2\repository)
+[DEBUG] Skipped remote update check for org.apache.maven.plugins/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Could not find metadata org.codehaus.mojo/maven-metadata.xml in local (C:\Users\simei\.m2\repository)
+[DEBUG] Skipped remote update check for org.codehaus.mojo/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Resolved plugin prefix help to org.apache.maven.plugins:maven-help-plugin from repository central
+[DEBUG] Resolving plugin version for org.apache.maven.plugins:maven-help-plugin
+[DEBUG] Could not find metadata org.apache.maven.plugins:maven-help-plugin/maven-metadata.xml in local (C:\Users\simei\.m2\repository)
+[DEBUG] Skipped remote update check for org.apache.maven.plugins:maven-help-plugin/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Resolved plugin version for org.apache.maven.plugins:maven-help-plugin to 2.2 from repository central (http://repo.maven.apache.org/maven2, releases)
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] === PROJECT BUILD PLAN ================================================
+[DEBUG] Project:       com.example:20140815-maven-surefire-plugin:1.0-SNAPSHOT
+[DEBUG] Dependencies (collect): []
+[DEBUG] Dependencies (resolve): []
+[DEBUG] Repositories (dependencies): [central (http://repo.maven.apache.org/maven2, releases)]
+[DEBUG] Repositories (plugins)     : [central (http://repo.maven.apache.org/maven2, releases)]
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-help-plugin:2.2:effective-pom (default-cli)
+[DEBUG] Style:         Aggregating
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <output>${output}</output>
+  <projects default-value="${reactorProjects}"/>
+  <project default-value="${project}"/>
+</configuration>
+[DEBUG] =======================================================================
+[INFO] 
+[INFO] --- maven-help-plugin:2.2:effective-pom (default-cli) @ 20140815-maven-surefire-plugin ---
+[DEBUG] Created new class realm maven.api
+[DEBUG] Importing foreign packages into class realm maven.api
+[DEBUG]   Imported: org.apache.maven.wagon.events < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.impl < plexus.core
+[DEBUG]   Imported: org.apache.maven.exception < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.Xpp3Dom < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.version < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.metadata < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.collection < plexus.core
+[DEBUG]   Imported: org.apache.maven.monitor < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.repository < plexus.core
+[DEBUG]   Imported: org.apache.maven.repository < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.resource < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.logging < plexus.core
+[DEBUG]   Imported: org.apache.maven.profiles < plexus.core
+[DEBUG]   Imported: org.apache.maven.classrealm < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.artifact < plexus.core
+[DEBUG]   Imported: org.apache.maven.execution < plexus.core
+[DEBUG]   Imported: org.apache.maven.reporting < plexus.core
+[DEBUG]   Imported: org.apache.maven.usability < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.container < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.component < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.transfer < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.authentication < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlSerializer < plexus.core
+[DEBUG]   Imported: org.apache.maven.lifecycle < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.* < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.graph < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.classworlds < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.internal.impl < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.repository < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.resolution < plexus.core
+[DEBUG]   Imported: javax.inject.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.settings < plexus.core
+[DEBUG]   Imported: org.codehaus.classworlds < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.toolchain < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.spi < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.observers < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlPullParserException < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlPullParser < plexus.core
+[DEBUG]   Imported: org.apache.maven.configuration < plexus.core
+[DEBUG]   Imported: org.apache.maven.cli < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.context < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.authorization < plexus.core
+[DEBUG]   Imported: org.apache.maven.project < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.installation < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.deployment < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.lifecycle < plexus.core
+[DEBUG]   Imported: org.apache.maven.rtinfo < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.configuration < plexus.core
+[DEBUG]   Imported: org.apache.maven.artifact < plexus.core
+[DEBUG]   Imported: org.apache.maven.model < plexus.core
+[DEBUG]   Imported: org.slf4j.* < plexus.core
+[DEBUG]   Imported: javax.enterprise.inject.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.proxy < plexus.core
+[DEBUG]   Imported: org.apache.maven.plugin < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.* < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.personality < plexus.core
+[DEBUG] Populating class realm maven.api
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=2, ConflictMarker.markTime=0, ConflictMarker.nodeCount=135, ConflictIdSorter.graphTime=1, ConflictIdSorter.topsortTime=1, ConflictIdSorter.conflictIdCount=39, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=13, ConflictResolver.conflictItemCount=95, DefaultDependencyCollector.collectTime=446, DefaultDependencyCollector.transformTime=21}
+[DEBUG] org.apache.maven.plugins:maven-help-plugin:jar:2.2:
+[DEBUG]    org.apache.maven:maven-artifact:jar:2.2.1:compile
+[DEBUG]    org.apache.maven:maven-core:jar:2.2.1:compile
+[DEBUG]       org.slf4j:slf4j-jdk14:jar:1.5.6:runtime
+[DEBUG]          org.slf4j:slf4j-api:jar:1.5.6:runtime
+[DEBUG]       org.slf4j:jcl-over-slf4j:jar:1.5.6:runtime
+[DEBUG]       org.apache.maven.reporting:maven-reporting-api:jar:2.2.1:compile
+[DEBUG]          org.apache.maven.doxia:doxia-sink-api:jar:1.1:compile
+[DEBUG]          org.apache.maven.doxia:doxia-logging-api:jar:1.1:compile
+[DEBUG]       org.apache.maven:maven-repository-metadata:jar:2.2.1:compile
+[DEBUG]       org.apache.maven:maven-error-diagnostics:jar:2.2.1:compile
+[DEBUG]       commons-cli:commons-cli:jar:1.2:compile
+[DEBUG]       org.apache.maven:maven-artifact-manager:jar:2.2.1:compile
+[DEBUG]          backport-util-concurrent:backport-util-concurrent:jar:3.1:compile
+[DEBUG]       classworlds:classworlds:jar:1.1:compile
+[DEBUG]       org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3:compile
+[DEBUG]          org.sonatype.plexus:plexus-cipher:jar:1.4:compile
+[DEBUG]    org.apache.maven:maven-model:jar:2.2.1:compile
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:2.2.1:compile
+[DEBUG]    org.apache.maven:maven-plugin-descriptor:jar:2.2.1:compile
+[DEBUG]    org.apache.maven:maven-project:jar:2.2.1:compile
+[DEBUG]       org.apache.maven:maven-plugin-registry:jar:2.2.1:compile
+[DEBUG]       org.codehaus.plexus:plexus-interpolation:jar:1.11:compile
+[DEBUG]    org.apache.maven:maven-settings:jar:2.2.1:compile
+[DEBUG]    org.apache.maven:maven-profile:jar:2.2.1:compile
+[DEBUG]    org.apache.maven:maven-monitor:jar:2.2.1:compile
+[DEBUG]    org.apache.maven:maven-plugin-parameter-documenter:jar:2.2.1:compile
+[DEBUG]    org.apache.maven.plugin-tools:maven-plugin-tools-api:jar:2.4.3:compile
+[DEBUG]       jtidy:jtidy:jar:4aug2000r7-dev:compile
+[DEBUG]    org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9:compile
+[DEBUG]       junit:junit:jar:3.8.1:compile
+[DEBUG]    org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-4:compile
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:1.5.7:compile
+[DEBUG]    jdom:jdom:jar:1.0:compile
+[DEBUG]    com.thoughtworks.xstream:xstream:jar:1.4.3:compile
+[DEBUG]       xmlpull:xmlpull:jar:1.1.3.1:compile
+[DEBUG]       xpp3:xpp3_min:jar:1.1.4c:compile
+[DEBUG]    commons-lang:commons-lang:jar:2.4:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-help-plugin:2.2
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-help-plugin:2.2
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-help-plugin:2.2
+[DEBUG]   Included: org.apache.maven.plugins:maven-help-plugin:jar:2.2
+[DEBUG]   Included: org.slf4j:slf4j-jdk14:jar:1.5.6
+[DEBUG]   Included: org.slf4j:slf4j-api:jar:1.5.6
+[DEBUG]   Included: org.slf4j:jcl-over-slf4j:jar:1.5.6
+[DEBUG]   Included: org.apache.maven.reporting:maven-reporting-api:jar:2.2.1
+[DEBUG]   Included: org.apache.maven.doxia:doxia-sink-api:jar:1.1
+[DEBUG]   Included: org.apache.maven.doxia:doxia-logging-api:jar:1.1
+[DEBUG]   Included: commons-cli:commons-cli:jar:1.2
+[DEBUG]   Included: backport-util-concurrent:backport-util-concurrent:jar:3.1
+[DEBUG]   Included: org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3
+[DEBUG]   Included: org.sonatype.plexus:plexus-cipher:jar:1.4
+[DEBUG]   Included: org.codehaus.plexus:plexus-interpolation:jar:1.11
+[DEBUG]   Included: org.apache.maven.plugin-tools:maven-plugin-tools-api:jar:2.4.3
+[DEBUG]   Included: jtidy:jtidy:jar:4aug2000r7-dev
+[DEBUG]   Included: junit:junit:jar:3.8.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-4
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:1.5.7
+[DEBUG]   Included: jdom:jdom:jar:1.0
+[DEBUG]   Included: com.thoughtworks.xstream:xstream:jar:1.4.3
+[DEBUG]   Included: xmlpull:xmlpull:jar:1.1.3.1
+[DEBUG]   Included: xpp3:xpp3_min:jar:1.1.4c
+[DEBUG]   Included: commons-lang:commons-lang:jar:2.4
+[DEBUG]   Excluded: org.apache.maven:maven-artifact:jar:2.2.1
+[DEBUG]   Excluded: org.apache.maven:maven-core:jar:2.2.1
+[DEBUG]   Excluded: org.apache.maven:maven-repository-metadata:jar:2.2.1
+[DEBUG]   Excluded: org.apache.maven:maven-error-diagnostics:jar:2.2.1
+[DEBUG]   Excluded: org.apache.maven:maven-artifact-manager:jar:2.2.1
+[DEBUG]   Excluded: classworlds:classworlds:jar:1.1
+[DEBUG]   Excluded: org.apache.maven:maven-model:jar:2.2.1
+[DEBUG]   Excluded: org.apache.maven:maven-plugin-api:jar:2.2.1
+[DEBUG]   Excluded: org.apache.maven:maven-plugin-descriptor:jar:2.2.1
+[DEBUG]   Excluded: org.apache.maven:maven-project:jar:2.2.1
+[DEBUG]   Excluded: org.apache.maven:maven-plugin-registry:jar:2.2.1
+[DEBUG]   Excluded: org.apache.maven:maven-settings:jar:2.2.1
+[DEBUG]   Excluded: org.apache.maven:maven-profile:jar:2.2.1
+[DEBUG]   Excluded: org.apache.maven:maven-monitor:jar:2.2.1
+[DEBUG]   Excluded: org.apache.maven:maven-plugin-parameter-documenter:jar:2.2.1
+[DEBUG]   Excluded: org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-help-plugin:2.2:effective-pom from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-help-plugin:2.2, parent: sun.misc.Launcher$AppClassLoader@72d86c58]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-help-plugin:2.2:effective-pom' with basic configurator -->
+[DEBUG]   (f) projects = [MavenProject: com.example:20140815-maven-surefire-plugin:1.0-SNAPSHOT @ F:\goat-pc-data\ecworkspace\20140815-maven-surefire-plugin-experimental\pom.xml]
+[DEBUG]   (f) project = MavenProject: com.example:20140815-maven-surefire-plugin:1.0-SNAPSHOT @ F:\goat-pc-data\ecworkspace\20140815-maven-surefire-plugin-experimental\pom.xml
+[DEBUG] -- end configuration --
+[INFO] 
+Effective POMs, after inheritance, interpolation, and profiles are applied:
+
+<!-- ====================================================================== -->
+<!--                                                                        -->
+<!-- Generated by Maven Help Plugin on 2014-08-15T01:25:28                  -->
+<!-- See: http://maven.apache.org/plugins/maven-help-plugin/                -->
+<!--                                                                        -->
+<!-- ====================================================================== -->
+
+<!-- ====================================================================== -->
+<!--                                                                        -->
+<!-- Effective POM for project                                              -->
+<!-- 'com.example:20140815-maven-surefire-plugin:jar:1.0-SNAPSHOT'          -->
+<!--                                                                        -->
+<!-- ====================================================================== -->
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.example</groupId>
+  <artifactId>20140815-maven-surefire-plugin</artifactId>
+  <version>1.0-SNAPSHOT</version>
+  <name>20140815-maven-surefire-plugin</name>
+  <url>http://maven.apache.org</url>
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.1</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+  <repositories>
+    <repository>
+      <snapshots>
+        <enabled>false</enabled>
+      </snapshots>
+      <id>central</id>
+      <name>Central Repository</name>
+      <url>http://repo.maven.apache.org/maven2</url>
+    </repository>
+  </repositories>
+  <pluginRepositories>
+    <pluginRepository>
+      <releases>
+        <updatePolicy>never</updatePolicy>
+      </releases>
+      <snapshots>
+        <enabled>false</enabled>
+      </snapshots>
+      <id>central</id>
+      <name>Central Repository</name>
+      <url>http://repo.maven.apache.org/maven2</url>
+    </pluginRepository>
+  </pluginRepositories>
+  <build>
+    <sourceDirectory>F:\goat-pc-data\ecworkspace\20140815-maven-surefire-plugin-experimental\src\main\java</sourceDirectory>
+    <scriptSourceDirectory>F:\goat-pc-data\ecworkspace\20140815-maven-surefire-plugin-experimental\src\main\scripts</scriptSourceDirectory>
+    <testSourceDirectory>F:\goat-pc-data\ecworkspace\20140815-maven-surefire-plugin-experimental\src\test\java</testSourceDirectory>
+    <outputDirectory>F:\goat-pc-data\ecworkspace\20140815-maven-surefire-plugin-experimental\target\classes</outputDirectory>
+    <testOutputDirectory>F:\goat-pc-data\ecworkspace\20140815-maven-surefire-plugin-experimental\target\test-classes</testOutputDirectory>
+    <resources>
+      <resource>
+        <directory>F:\goat-pc-data\ecworkspace\20140815-maven-surefire-plugin-experimental\src\main\resources</directory>
+      </resource>
+    </resources>
+    <testResources>
+      <testResource>
+        <directory>F:\goat-pc-data\ecworkspace\20140815-maven-surefire-plugin-experimental\src\test\resources</directory>
+      </testResource>
+    </testResources>
+    <directory>F:\goat-pc-data\ecworkspace\20140815-maven-surefire-plugin-experimental\target</directory>
+    <finalName>20140815-maven-surefire-plugin-1.0-SNAPSHOT</finalName>
+    <pluginManagement>
+      <plugins>
+        <plugin>
+          <artifactId>maven-antrun-plugin</artifactId>
+          <version>1.3</version>
+        </plugin>
+        <plugin>
+          <artifactId>maven-assembly-plugin</artifactId>
+          <version>2.2-beta-5</version>
+        </plugin>
+        <plugin>
+          <artifactId>maven-dependency-plugin</artifactId>
+          <version>2.8</version>
+        </plugin>
+        <plugin>
+          <artifactId>maven-release-plugin</artifactId>
+          <version>2.3.2</version>
+        </plugin>
+      </plugins>
+    </pluginManagement>
+    <plugins>
+      <plugin>
+        <artifactId>maven-surefire-plugin</artifactId>
+        <version>2.17</version>
+        <executions>
+          <execution>
+            <id>default-test</id>
+            <phase>test</phase>
+            <goals>
+              <goal>test</goal>
+            </goals>
+          </execution>
+        </executions>
+        <dependencies>
+          <dependency>
+            <groupId>org.apache.maven.surefire</groupId>
+            <artifactId>surefire-junit47</artifactId>
+            <version>2.17</version>
+            <scope>compile</scope>
+          </dependency>
+        </dependencies>
+      </plugin>
+      <plugin>
+        <artifactId>maven-clean-plugin</artifactId>
+        <version>2.5</version>
+        <executions>
+          <execution>
+            <id>default-clean</id>
+            <phase>clean</phase>
+            <goals>
+              <goal>clean</goal>
+            </goals>
+          </execution>
+        </executions>
+      </plugin>
+      <plugin>
+        <artifactId>maven-install-plugin</artifactId>
+        <version>2.4</version>
+        <executions>
+          <execution>
+            <id>default-install</id>
+            <phase>install</phase>
+            <goals>
+              <goal>install</goal>
+            </goals>
+          </execution>
+        </executions>
+      </plugin>
+      <plugin>
+        <artifactId>maven-resources-plugin</artifactId>
+        <version>2.6</version>
+        <executions>
+          <execution>
+            <id>default-resources</id>
+            <phase>process-resources</phase>
+            <goals>
+              <goal>resources</goal>
+            </goals>
+          </execution>
+          <execution>
+            <id>default-testResources</id>
+            <phase>process-test-resources</phase>
+            <goals>
+              <goal>testResources</goal>
+            </goals>
+          </execution>
+        </executions>
+      </plugin>
+      <plugin>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>2.5.1</version>
+        <executions>
+          <execution>
+            <id>default-testCompile</id>
+            <phase>test-compile</phase>
+            <goals>
+              <goal>testCompile</goal>
+            </goals>
+          </execution>
+          <execution>
+            <id>default-compile</id>
+            <phase>compile</phase>
+            <goals>
+              <goal>compile</goal>
+            </goals>
+          </execution>
+        </executions>
+      </plugin>
+      <plugin>
+        <artifactId>maven-jar-plugin</artifactId>
+        <version>2.4</version>
+        <executions>
+          <execution>
+            <id>default-jar</id>
+            <phase>package</phase>
+            <goals>
+              <goal>jar</goal>
+            </goals>
+          </execution>
+        </executions>
+      </plugin>
+      <plugin>
+        <artifactId>maven-deploy-plugin</artifactId>
+        <version>2.7</version>
+        <executions>
+          <execution>
+            <id>default-deploy</id>
+            <phase>deploy</phase>
+            <goals>
+              <goal>deploy</goal>
+            </goals>
+          </execution>
+        </executions>
+      </plugin>
+      <plugin>
+        <artifactId>maven-site-plugin</artifactId>
+        <version>3.3</version>
+        <executions>
+          <execution>
+            <id>default-site</id>
+            <phase>site</phase>
+            <goals>
+              <goal>site</goal>
+            </goals>
+            <configuration>
+              <outputDirectory>F:\goat-pc-data\ecworkspace\20140815-maven-surefire-plugin-experimental\target\site</outputDirectory>
+              <reportPlugins>
+                <reportPlugin>
+                  <groupId>org.apache.maven.plugins</groupId>
+                  <artifactId>maven-project-info-reports-plugin</artifactId>
+                </reportPlugin>
+              </reportPlugins>
+            </configuration>
+          </execution>
+          <execution>
+            <id>default-deploy</id>
+            <phase>site-deploy</phase>
+            <goals>
+              <goal>deploy</goal>
+            </goals>
+            <configuration>
+              <outputDirectory>F:\goat-pc-data\ecworkspace\20140815-maven-surefire-plugin-experimental\target\site</outputDirectory>
+              <reportPlugins>
+                <reportPlugin>
+                  <groupId>org.apache.maven.plugins</groupId>
+                  <artifactId>maven-project-info-reports-plugin</artifactId>
+                </reportPlugin>
+              </reportPlugins>
+            </configuration>
+          </execution>
+        </executions>
+        <configuration>
+          <outputDirectory>F:\goat-pc-data\ecworkspace\20140815-maven-surefire-plugin-experimental\target\site</outputDirectory>
+          <reportPlugins>
+            <reportPlugin>
+              <groupId>org.apache.maven.plugins</groupId>
+              <artifactId>maven-project-info-reports-plugin</artifactId>
+            </reportPlugin>
+          </reportPlugins>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+  <reporting>
+    <outputDirectory>F:\goat-pc-data\ecworkspace\20140815-maven-surefire-plugin-experimental\target\site</outputDirectory>
+  </reporting>
+</project>
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 1.356s
+[INFO] Finished at: Fri Aug 15 01:25:28 JST 2014
+[INFO] Final Memory: 10M/309M
+[INFO] ------------------------------------------------------------------------

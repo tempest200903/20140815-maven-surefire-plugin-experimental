@@ -1,0 +1,297 @@
+Apache Maven 3.1.1 (0728685237757ffbf44136acec0402957f723d9a; 2013-09-18 00:22:22+0900)
+Maven home: C:\tool\Maven\apache-maven-3.1.1
+Java version: 1.7.0_17, vendor: Oracle Corporation
+Java home: C:\tool\Java\jdk1.7.0_17\jre
+Default locale: ja_JP, platform encoding: MS932
+OS name: "windows 7", version: "6.1", arch: "amd64", family: "windows"
+[INFO] Error stacktraces are turned on.
+[DEBUG] Reading global settings from C:\tool\Maven\apache-maven-3.1.1\conf\settings.xml
+[DEBUG] Reading user settings from C:\Users\simei\.m2\settings.xml
+[DEBUG] Using local repository at C:\Users\simei\.m2\repository
+[DEBUG] Using manager EnhancedLocalRepositoryManager with priority 10.0 for C:\Users\simei\.m2\repository
+[INFO] Scanning for projects...
+[DEBUG] Extension realms for project com.example:20140815-maven-surefire-plugin:jar:1.0-SNAPSHOT: (none)
+[DEBUG] Looking up lifecyle mappings for packaging jar from ClassRealm[plexus.core, parent: null]
+[DEBUG] Resolving plugin prefix dependency from [org.apache.maven.plugins, org.codehaus.mojo]
+[DEBUG] Resolved plugin prefix dependency to org.apache.maven.plugins:maven-dependency-plugin from POM com.example:20140815-maven-surefire-plugin:jar:1.0-SNAPSHOT
+[DEBUG] === REACTOR BUILD PLAN ================================================
+[DEBUG] Project: com.example:20140815-maven-surefire-plugin:jar:1.0-SNAPSHOT
+[DEBUG] Tasks:   [dependency:list]
+[DEBUG] Style:   Regular
+[DEBUG] =======================================================================
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building 20140815-maven-surefire-plugin 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[DEBUG] Resolving plugin prefix dependency from [org.apache.maven.plugins, org.codehaus.mojo]
+[DEBUG] Resolved plugin prefix dependency to org.apache.maven.plugins:maven-dependency-plugin from POM com.example:20140815-maven-surefire-plugin:jar:1.0-SNAPSHOT
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] === PROJECT BUILD PLAN ================================================
+[DEBUG] Project:       com.example:20140815-maven-surefire-plugin:1.0-SNAPSHOT
+[DEBUG] Dependencies (collect): []
+[DEBUG] Dependencies (resolve): [test]
+[DEBUG] Repositories (dependencies): [central (http://repo.maven.apache.org/maven2, releases)]
+[DEBUG] Repositories (plugins)     : [central (http://repo.maven.apache.org/maven2, releases)]
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-dependency-plugin:2.8:list (default-cli)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <appendOutput default-value="false">${appendOutput}</appendOutput>
+  <classifier default-value="">${classifier}</classifier>
+  <excludeArtifactIds default-value="">${excludeArtifactIds}</excludeArtifactIds>
+  <excludeClassifiers default-value="">${excludeClassifiers}</excludeClassifiers>
+  <excludeGroupIds default-value="">${excludeGroupIds}</excludeGroupIds>
+  <excludeReactor default-value="true">${excludeReactor}</excludeReactor>
+  <excludeScope default-value="">${excludeScope}</excludeScope>
+  <excludeTransitive default-value="false">${excludeTransitive}</excludeTransitive>
+  <excludeTypes default-value="">${excludeTypes}</excludeTypes>
+  <includeArtifactIds default-value="">${includeArtifactIds}</includeArtifactIds>
+  <includeClassifiers default-value="">${includeClassifiers}</includeClassifiers>
+  <includeGroupIds default-value="">${includeGroupIds}</includeGroupIds>
+  <includeParents default-value="false">${includeParents}</includeParents>
+  <includeScope default-value="">${includeScope}</includeScope>
+  <includeTypes default-value="">${includeTypes}</includeTypes>
+  <local default-value="${localRepository}"/>
+  <markersDirectory default-value="${project.build.directory}/dependency-maven-plugin-markers">${markersDirectory}</markersDirectory>
+  <outputAbsoluteArtifactFilename default-value="false">${outputAbsoluteArtifactFilename}</outputAbsoluteArtifactFilename>
+  <outputFile>${outputFile}</outputFile>
+  <outputScope default-value="true">${mdep.outputScope}</outputScope>
+  <overWriteIfNewer default-value="true">${overWriteIfNewer}</overWriteIfNewer>
+  <overWriteReleases default-value="false">${overWriteReleases}</overWriteReleases>
+  <overWriteSnapshots default-value="false">${overWriteSnapshots}</overWriteSnapshots>
+  <prependGroupId default-value="false">${mdep.prependGroupId}</prependGroupId>
+  <reactorProjects default-value="${reactorProjects}"/>
+  <remoteRepos default-value="${project.remoteArtifactRepositories}"/>
+  <silent default-value="false">${silent}</silent>
+  <skip default-value="false">${mdep.skip}</skip>
+  <sort default-value="false">${sort}</sort>
+  <type default-value="">${type}</type>
+  <project default-value="${project}"/>
+</configuration>
+[DEBUG] =======================================================================
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=1, ConflictMarker.markTime=0, ConflictMarker.nodeCount=2, ConflictIdSorter.graphTime=1, ConflictIdSorter.topsortTime=0, ConflictIdSorter.conflictIdCount=1, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=4, ConflictResolver.conflictItemCount=1, DefaultDependencyCollector.collectTime=10, DefaultDependencyCollector.transformTime=9}
+[DEBUG] com.example:20140815-maven-surefire-plugin:jar:1.0-SNAPSHOT
+[DEBUG]    junit:junit:jar:3.8.1:test
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:list (default-cli) @ 20140815-maven-surefire-plugin ---
+[DEBUG] Created new class realm maven.api
+[DEBUG] Importing foreign packages into class realm maven.api
+[DEBUG]   Imported: org.apache.maven.wagon.events < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.impl < plexus.core
+[DEBUG]   Imported: org.apache.maven.exception < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.Xpp3Dom < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.version < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.metadata < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.collection < plexus.core
+[DEBUG]   Imported: org.apache.maven.monitor < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.repository < plexus.core
+[DEBUG]   Imported: org.apache.maven.repository < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.resource < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.logging < plexus.core
+[DEBUG]   Imported: org.apache.maven.profiles < plexus.core
+[DEBUG]   Imported: org.apache.maven.classrealm < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.artifact < plexus.core
+[DEBUG]   Imported: org.apache.maven.execution < plexus.core
+[DEBUG]   Imported: org.apache.maven.reporting < plexus.core
+[DEBUG]   Imported: org.apache.maven.usability < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.container < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.component < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.transfer < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.authentication < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlSerializer < plexus.core
+[DEBUG]   Imported: org.apache.maven.lifecycle < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.* < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.graph < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.classworlds < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.internal.impl < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.repository < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.resolution < plexus.core
+[DEBUG]   Imported: javax.inject.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.settings < plexus.core
+[DEBUG]   Imported: org.codehaus.classworlds < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.toolchain < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.spi < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.observers < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlPullParserException < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlPullParser < plexus.core
+[DEBUG]   Imported: org.apache.maven.configuration < plexus.core
+[DEBUG]   Imported: org.apache.maven.cli < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.context < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.authorization < plexus.core
+[DEBUG]   Imported: org.apache.maven.project < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.installation < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.deployment < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.lifecycle < plexus.core
+[DEBUG]   Imported: org.apache.maven.rtinfo < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.configuration < plexus.core
+[DEBUG]   Imported: org.apache.maven.artifact < plexus.core
+[DEBUG]   Imported: org.apache.maven.model < plexus.core
+[DEBUG]   Imported: org.slf4j.* < plexus.core
+[DEBUG]   Imported: javax.enterprise.inject.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.proxy < plexus.core
+[DEBUG]   Imported: org.apache.maven.plugin < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.* < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.personality < plexus.core
+[DEBUG] Populating class realm maven.api
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=2, ConflictMarker.markTime=1, ConflictMarker.nodeCount=297, ConflictIdSorter.graphTime=1, ConflictIdSorter.topsortTime=0, ConflictIdSorter.conflictIdCount=63, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=18, ConflictResolver.conflictItemCount=167, DefaultDependencyCollector.collectTime=710, DefaultDependencyCollector.transformTime=22}
+[DEBUG] org.apache.maven.plugins:maven-dependency-plugin:jar:2.8:
+[DEBUG]    org.apache.maven:maven-artifact:jar:2.0.9:compile
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:2.0.9:compile
+[DEBUG]    org.apache.maven:maven-project:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-settings:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-profile:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-plugin-registry:jar:2.0.9:compile
+[DEBUG]    org.apache.maven:maven-model:jar:2.0.9:compile
+[DEBUG]    org.apache.maven:maven-core:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-error-diagnostics:jar:2.0.9:compile
+[DEBUG]       commons-cli:commons-cli:jar:1.0:compile
+[DEBUG]       org.apache.maven:maven-plugin-descriptor:jar:2.0.9:compile
+[DEBUG]       org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-4:compile
+[DEBUG]       org.apache.maven:maven-monitor:jar:2.0.9:compile
+[DEBUG]    org.apache.maven:maven-artifact-manager:jar:2.0.9:compile
+[DEBUG]    org.apache.maven:maven-repository-metadata:jar:2.0.9:compile
+[DEBUG]    org.apache.maven.reporting:maven-reporting-api:jar:3.0:compile
+[DEBUG]    org.apache.maven.reporting:maven-reporting-impl:jar:2.0.5:compile
+[DEBUG]       org.apache.maven.doxia:doxia-core:jar:1.0:compile
+[DEBUG]       org.apache.maven.shared:maven-doxia-tools:jar:1.0.2:compile
+[DEBUG]          commons-io:commons-io:jar:1.4:compile
+[DEBUG]       commons-validator:commons-validator:jar:1.2.0:compile
+[DEBUG]          commons-beanutils:commons-beanutils:jar:1.7.0:compile
+[DEBUG]          commons-digester:commons-digester:jar:1.6:compile
+[DEBUG]          commons-logging:commons-logging:jar:1.0.4:compile
+[DEBUG]          oro:oro:jar:2.0.8:compile
+[DEBUG]          xml-apis:xml-apis:jar:1.0.b2:compile
+[DEBUG]    org.apache.maven.doxia:doxia-sink-api:jar:1.0:compile
+[DEBUG]    org.apache.maven.doxia:doxia-site-renderer:jar:1.0:compile
+[DEBUG]       org.codehaus.plexus:plexus-i18n:jar:1.0-beta-7:compile
+[DEBUG]       org.codehaus.plexus:plexus-velocity:jar:1.1.7:compile
+[DEBUG]       org.apache.velocity:velocity:jar:1.5:compile
+[DEBUG]       org.apache.maven.doxia:doxia-decoration-model:jar:1.0:compile
+[DEBUG]       org.apache.maven.doxia:doxia-module-apt:jar:1.0:compile
+[DEBUG]       org.apache.maven.doxia:doxia-module-fml:jar:1.0:compile
+[DEBUG]       org.apache.maven.doxia:doxia-module-xdoc:jar:1.0:compile
+[DEBUG]       org.apache.maven.doxia:doxia-module-xhtml:jar:1.0:compile
+[DEBUG]    org.codehaus.plexus:plexus-archiver:jar:2.3:compile
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:3.0.9:compile
+[DEBUG]    org.apache.maven.shared:file-management:jar:1.2.1:compile
+[DEBUG]       org.apache.maven.shared:maven-shared-io:jar:1.1:compile
+[DEBUG]          org.apache.maven.wagon:wagon-provider-api:jar:1.0-alpha-6:compile
+[DEBUG]    org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:compile
+[DEBUG]       junit:junit:jar:3.8.1:compile
+[DEBUG]    org.codehaus.plexus:plexus-io:jar:2.0.6:compile
+[DEBUG]    org.apache.maven.shared:maven-dependency-analyzer:jar:1.4:compile
+[DEBUG]       asm:asm:jar:3.3.1:compile
+[DEBUG]       org.codehaus.plexus:plexus-component-annotations:jar:1.5.5:compile
+[DEBUG]    org.apache.maven.shared:maven-dependency-tree:jar:2.1:compile
+[DEBUG]       org.eclipse.aether:aether-util:jar:0.9.0.M2:compile
+[DEBUG]    org.apache.maven.shared:maven-common-artifact-filters:jar:1.4:compile
+[DEBUG]    org.apache.maven.shared:maven-invoker:jar:2.0.11:compile
+[DEBUG]    commons-lang:commons-lang:jar:2.6:compile
+[DEBUG]    commons-collections:commons-collections:jar:3.2.1:compile
+[DEBUG]    classworlds:classworlds:jar:1.1:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-dependency-plugin:2.8
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-dependency-plugin:2.8
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-dependency-plugin:2.8
+[DEBUG]   Included: org.apache.maven.plugins:maven-dependency-plugin:jar:2.8
+[DEBUG]   Included: commons-cli:commons-cli:jar:1.0
+[DEBUG]   Included: org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-4
+[DEBUG]   Included: org.apache.maven.reporting:maven-reporting-api:jar:3.0
+[DEBUG]   Included: org.apache.maven.reporting:maven-reporting-impl:jar:2.0.5
+[DEBUG]   Included: org.apache.maven.doxia:doxia-core:jar:1.0
+[DEBUG]   Included: org.apache.maven.shared:maven-doxia-tools:jar:1.0.2
+[DEBUG]   Included: commons-io:commons-io:jar:1.4
+[DEBUG]   Included: commons-validator:commons-validator:jar:1.2.0
+[DEBUG]   Included: commons-beanutils:commons-beanutils:jar:1.7.0
+[DEBUG]   Included: commons-digester:commons-digester:jar:1.6
+[DEBUG]   Included: commons-logging:commons-logging:jar:1.0.4
+[DEBUG]   Included: oro:oro:jar:2.0.8
+[DEBUG]   Included: xml-apis:xml-apis:jar:1.0.b2
+[DEBUG]   Included: org.apache.maven.doxia:doxia-sink-api:jar:1.0
+[DEBUG]   Included: org.apache.maven.doxia:doxia-site-renderer:jar:1.0
+[DEBUG]   Included: org.codehaus.plexus:plexus-i18n:jar:1.0-beta-7
+[DEBUG]   Included: org.codehaus.plexus:plexus-velocity:jar:1.1.7
+[DEBUG]   Included: org.apache.velocity:velocity:jar:1.5
+[DEBUG]   Included: org.apache.maven.doxia:doxia-decoration-model:jar:1.0
+[DEBUG]   Included: org.apache.maven.doxia:doxia-module-apt:jar:1.0
+[DEBUG]   Included: org.apache.maven.doxia:doxia-module-fml:jar:1.0
+[DEBUG]   Included: org.apache.maven.doxia:doxia-module-xdoc:jar:1.0
+[DEBUG]   Included: org.apache.maven.doxia:doxia-module-xhtml:jar:1.0
+[DEBUG]   Included: org.codehaus.plexus:plexus-archiver:jar:2.3
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:3.0.9
+[DEBUG]   Included: org.apache.maven.shared:file-management:jar:1.2.1
+[DEBUG]   Included: org.apache.maven.shared:maven-shared-io:jar:1.1
+[DEBUG]   Included: junit:junit:jar:3.8.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-io:jar:2.0.6
+[DEBUG]   Included: org.apache.maven.shared:maven-dependency-analyzer:jar:1.4
+[DEBUG]   Included: asm:asm:jar:3.3.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-component-annotations:jar:1.5.5
+[DEBUG]   Included: org.apache.maven.shared:maven-dependency-tree:jar:2.1
+[DEBUG]   Included: org.eclipse.aether:aether-util:jar:0.9.0.M2
+[DEBUG]   Included: org.apache.maven.shared:maven-common-artifact-filters:jar:1.4
+[DEBUG]   Included: org.apache.maven.shared:maven-invoker:jar:2.0.11
+[DEBUG]   Included: commons-lang:commons-lang:jar:2.6
+[DEBUG]   Included: commons-collections:commons-collections:jar:3.2.1
+[DEBUG]   Excluded: org.apache.maven:maven-artifact:jar:2.0.9
+[DEBUG]   Excluded: org.apache.maven:maven-plugin-api:jar:2.0.9
+[DEBUG]   Excluded: org.apache.maven:maven-project:jar:2.0.9
+[DEBUG]   Excluded: org.apache.maven:maven-settings:jar:2.0.9
+[DEBUG]   Excluded: org.apache.maven:maven-profile:jar:2.0.9
+[DEBUG]   Excluded: org.apache.maven:maven-plugin-registry:jar:2.0.9
+[DEBUG]   Excluded: org.apache.maven:maven-model:jar:2.0.9
+[DEBUG]   Excluded: org.apache.maven:maven-core:jar:2.0.9
+[DEBUG]   Excluded: org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.9
+[DEBUG]   Excluded: org.apache.maven:maven-error-diagnostics:jar:2.0.9
+[DEBUG]   Excluded: org.apache.maven:maven-plugin-descriptor:jar:2.0.9
+[DEBUG]   Excluded: org.apache.maven:maven-monitor:jar:2.0.9
+[DEBUG]   Excluded: org.apache.maven:maven-artifact-manager:jar:2.0.9
+[DEBUG]   Excluded: org.apache.maven:maven-repository-metadata:jar:2.0.9
+[DEBUG]   Excluded: org.apache.maven.wagon:wagon-provider-api:jar:1.0-alpha-6
+[DEBUG]   Excluded: org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1
+[DEBUG]   Excluded: classworlds:classworlds:jar:1.1
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-dependency-plugin:2.8:list from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-dependency-plugin:2.8, parent: sun.misc.Launcher$AppClassLoader@72d86c58]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-dependency-plugin:2.8:list' with basic configurator -->
+[DEBUG]   (f) appendOutput = false
+[DEBUG]   (f) excludeReactor = true
+[DEBUG]   (f) excludeTransitive = false
+[DEBUG]   (f) includeParents = false
+[DEBUG]   (s) local =        id: local
+      url: file:///C:/Users/simei/.m2/repository/
+   layout: none
+
+[DEBUG]   (s) markersDirectory = F:\goat-pc-data\ecworkspace\20140815-maven-surefire-plugin-experimental\target\dependency-maven-plugin-markers
+[DEBUG]   (f) outputAbsoluteArtifactFilename = false
+[DEBUG]   (f) outputScope = true
+[DEBUG]   (f) overWriteIfNewer = true
+[DEBUG]   (f) overWriteReleases = false
+[DEBUG]   (f) overWriteSnapshots = false
+[DEBUG]   (s) prependGroupId = false
+[DEBUG]   (f) reactorProjects = [MavenProject: com.example:20140815-maven-surefire-plugin:1.0-SNAPSHOT @ F:\goat-pc-data\ecworkspace\20140815-maven-surefire-plugin-experimental\pom.xml]
+[DEBUG]   (s) remoteRepos = [       id: central
+      url: http://repo.maven.apache.org/maven2
+   layout: default
+snapshots: [enabled => false, update => daily]
+ releases: [enabled => true, update => daily]
+]
+[DEBUG]   (f) silent = false
+[DEBUG]   (s) skip = false
+[DEBUG]   (f) sort = false
+[DEBUG]   (f) project = MavenProject: com.example:20140815-maven-surefire-plugin:1.0-SNAPSHOT @ F:\goat-pc-data\ecworkspace\20140815-maven-surefire-plugin-experimental\pom.xml
+[DEBUG] -- end configuration --
+[INFO] 
+[INFO] The following files have been resolved:
+[INFO]    junit:junit:jar:3.8.1:test
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 1.719s
+[INFO] Finished at: Fri Aug 15 01:17:38 JST 2014
+[INFO] Final Memory: 12M/245M
+[INFO] ------------------------------------------------------------------------
