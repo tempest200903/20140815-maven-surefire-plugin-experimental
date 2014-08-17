@@ -1,6 +1,7 @@
 package com.example;
 
 import junit.framework.TestCase;
+
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -25,7 +26,7 @@ public class AppTest extends TestCase {
 	}
 
 	@Test
-	@Category(com.example.SlowTests.class)
+	@Category(SlowTests.class)
 	public void testSlow() {
 		System.out.println("testSlow");
 		assertTrue(true);
