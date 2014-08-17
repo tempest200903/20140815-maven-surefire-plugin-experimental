@@ -1,0 +1,96 @@
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building 20140815-maven-surefire-plugin 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ 20140815-maven-surefire-plugin ---
+[INFO] Deleting F:\goat-pc-data\ecworkspace\20140815-maven-surefire-plugin-experimental\target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ 20140815-maven-surefire-plugin ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory F:\goat-pc-data\ecworkspace\20140815-maven-surefire-plugin-experimental\src\main\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.5.1:compile (default-compile) @ 20140815-maven-surefire-plugin ---
+[INFO] Compiling 1 source file to F:\goat-pc-data\ecworkspace\20140815-maven-surefire-plugin-experimental\target\classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ 20140815-maven-surefire-plugin ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory F:\goat-pc-data\ecworkspace\20140815-maven-surefire-plugin-experimental\src\test\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.5.1:testCompile (default-testCompile) @ 20140815-maven-surefire-plugin ---
+[INFO] Compiling 8 source files to F:\goat-pc-data\ecworkspace\20140815-maven-surefire-plugin-experimental\target\test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.17:test (default-test) @ 20140815-maven-surefire-plugin ---
+[INFO] Surefire report directory: F:\goat-pc-data\ecworkspace\20140815-maven-surefire-plugin-experimental\target\surefire-reports
+[INFO] Using configured provider org.apache.maven.surefire.junitcore.JUnitCoreProvider
+[INFO] parallel='none', perCoreThreadCount=true, threadCount=0, useUnlimitedThreads=false, threadCountSuites=0, threadCountClasses=0, threadCountMethods=0, parallelOptimized=true
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.example.AppTest
+testApp
+testSlow
+testSlower
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec - in com.example.AppTest
+
+Results :
+
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] --- maven-site-plugin:3.3:site (default-site) @ 20140815-maven-surefire-plugin ---
+[INFO] configuring report plugin org.apache.maven.plugins:maven-surefire-report-plugin:2.17
+[INFO] 
+[INFO] >>> maven-surefire-report-plugin:2.17:report (report:report) @ 20140815-maven-surefire-plugin >>>
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ 20140815-maven-surefire-plugin ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory F:\goat-pc-data\ecworkspace\20140815-maven-surefire-plugin-experimental\src\main\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.5.1:compile (default-compile) @ 20140815-maven-surefire-plugin ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ 20140815-maven-surefire-plugin ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory F:\goat-pc-data\ecworkspace\20140815-maven-surefire-plugin-experimental\src\test\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.5.1:testCompile (default-testCompile) @ 20140815-maven-surefire-plugin ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.17:test (default-test) @ 20140815-maven-surefire-plugin ---
+[INFO] Skipping execution of surefire because it has already been run for this configuration
+[INFO] 
+[INFO] <<< maven-surefire-report-plugin:2.17:report (report:report) @ 20140815-maven-surefire-plugin <<<
+[WARNING] Report plugin org.apache.maven.plugins:maven-project-info-reports-plugin has an empty version.
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[INFO] configuring report plugin org.apache.maven.plugins:maven-project-info-reports-plugin:2.7
+[INFO] Relativizing decoration links with respect to project URL: http://maven.apache.org
+[INFO] Rendering site with org.apache.maven.skins:maven-default-skin:jar:1.0 skin.
+[INFO] Skipped "Surefire Report" report, file "surefire-report.html" already exists for the English version.
+[INFO] Generating "Surefire Report" report    --- maven-surefire-report-plugin:2.17
+[WARNING] Unable to locate Test Source XRef to link to - DISABLED
+[INFO] Generating "About" report    --- maven-project-info-reports-plugin:2.7
+[INFO] Generating "Plugin Management" report    --- maven-project-info-reports-plugin:2.7
+[INFO] Generating "Distribution Management" report    --- maven-project-info-reports-plugin:2.7
+[INFO] Generating "Dependency Information" report    --- maven-project-info-reports-plugin:2.7
+[INFO] Generating "Source Repository" report    --- maven-project-info-reports-plugin:2.7
+[INFO] Generating "Mailing Lists" report    --- maven-project-info-reports-plugin:2.7
+[INFO] Generating "Issue Tracking" report    --- maven-project-info-reports-plugin:2.7
+[INFO] Generating "Continuous Integration" report    --- maven-project-info-reports-plugin:2.7
+[INFO] Generating "Project Plugins" report    --- maven-project-info-reports-plugin:2.7
+[INFO] Generating "Project License" report    --- maven-project-info-reports-plugin:2.7
+[INFO] Generating "Project Team" report    --- maven-project-info-reports-plugin:2.7
+[INFO] Generating "Project Summary" report    --- maven-project-info-reports-plugin:2.7
+[INFO] Generating "Dependencies" report    --- maven-project-info-reports-plugin:2.7
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 8.626s
+[INFO] Finished at: Sun Aug 17 22:35:55 JST 2014
+[INFO] Final Memory: 34M/436M
+[INFO] ------------------------------------------------------------------------
